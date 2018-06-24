@@ -73,7 +73,7 @@ typedef void (^TouchLabelIndexBlock)();
 @property ( nonatomic, assign) BOOL haveRightLine;
 
 
-@property ( nonatomic, strong) id<TouchLabelDelegate>touchDelegate;
+@property ( nonatomic, assign) id<TouchLabelDelegate>touchDelegate;
 
 //根据titleArray配置label
 - (void)configSubLabel;
